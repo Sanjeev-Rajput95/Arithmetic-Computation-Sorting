@@ -9,3 +9,7 @@ echo "$a + $b * $c = $result";
 
 result=$(( $a * $b + $c ))
 echo "$a * $b + $c = $result";
+
+result=$(( $c + $a / $b ))
+echo "$c + $a / $b = $result";
+
