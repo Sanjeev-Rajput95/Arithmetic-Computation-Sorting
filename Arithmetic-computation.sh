@@ -13,3 +13,6 @@ echo "$a * $b + $c = $result";
 result=$(( $c + $a / $b ))
 echo "$c + $a / $b = $result";
 
+result=$(( $a % $b + $c ))
+echo "$c % $b + $c = $result";
+
