@@ -5,4 +5,7 @@ read -p "Enter second number :" b;
 read -p "Enter third number :" c;
 
 result=$(( $a + $b * $c))
-echo "$a + $b*$c = $result";
+echo "$a + $b * $c = $result";
+
+result=$(( $a * $b + $c ))
+echo "$a * $b + $c = $result";
